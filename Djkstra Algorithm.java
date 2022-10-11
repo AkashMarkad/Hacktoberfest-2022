@@ -9,6 +9,8 @@
 
 // Code:
 
+import java.util.ArrayList;
+
 class Node implements Comparator<Node>{
     int v;
     int w;
@@ -72,6 +74,25 @@ class Solution
         }
         
         return findDjk(S,adjN,V);
+    }
+
+    public static void main(String[] args) {
+        int V=4;
+        ArrayList<ArrayList<Integer>> graph  = new ArrayList<>();
+        for(int i=0;i<4;i++){
+            graph.add(new ArrayList<>());
+        }
+        graph.get(0).add(1);
+        graph.get(0).add(2);
+        graph.get(0).add(3);
+        graph.get(1).add(2);
+        graph.get(1).add(3);
+        graph.get(2).add(0);
+        graph.get(2).add(3);
+        graph.get(3).add(1);
+        graph.get(2).add(0);
+        int ans[] = dijkstra(V,graph);
+        for(int i : ans) System.out.println(i);
     }
 }
 
