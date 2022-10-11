@@ -91,7 +91,7 @@ class Solution
         graph.get(2).add(3);
         graph.get(3).add(1);
         graph.get(2).add(0);
-        int ans[] = dijkstra(V,graph);
+        int ans[] = dijkstra(V,graph,0);
         for(int i : ans) System.out.println(i);
     }
 }
