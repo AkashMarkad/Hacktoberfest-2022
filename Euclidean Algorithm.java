@@ -3,8 +3,8 @@
 import java.lang.*;
 import java.util.*;
 
-class GFG {
-	// extended Euclidean Algorithm
+class Euclidean {
+
 	public static int gcd(int a, int b)
 	{
 		if (a == 0)
@@ -13,12 +13,11 @@ class GFG {
 		return gcd(b % a, a);
 	}
 
-	// Driver code
 	public static void main(String[] args)
 	{
 		int a = 10, b = 15, g;
 	
-		// Function call
+	
 		g = gcd(a, b);
 		System.out.println("GCD(" + a + " , " + b
 						+ ") = " + g);
