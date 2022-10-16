@@ -38,6 +38,14 @@ A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](ht
 
 [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
 
+Also, you find some good issues if you are just starting your open-source contribution journey, these resources might be helpful to you <br>
+https://goodfirstissues.com/ <br>
+https://contributor.ninja/ <br>
+https://www.firsttimersonly.com/ <br>
+https://up-for-grabs.net/#/ <br>
+https://github.com/mungell/awesome-for-beginners <br>
+https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/
+
 Enjoy Coding and Keep contributing to open source.
 
 (PS- Add your name to contributors.md in the format [ Your_Name ] (Your_Profile_Link))
