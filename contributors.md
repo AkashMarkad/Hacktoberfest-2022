@@ -1,4 +1,5 @@
 #Contributors
+[Vedant Jadhav] (https://github.com/Vedant102)
 
 Enjoy Coding and Keep contributing to open source.
 
